@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a,
+a:visited {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+}
+
+.nav {
+  width: 500px;
+  margin: 20px auto;
+  max-width: 48em;
+  border: 1px solid #333;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+}
+
+.menu {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: background .15s ease-in;
+}
+
+.menu:hover {
+  background: rgb(116, 102, 102);
+}
+
+.merah.is-active {
+  background: red;
+}
+.kuning.is-active{
+  background: yellow;
+}
+.biru.is-active{
+  background: aqua;
+}
+.hjau.is-active {
+  background: green;
+}
+
+.info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.selected {
+  margin-left: 5px;
+  padding: 5px 10px;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: rgb(121, 114, 114);
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.merah.selected {
+  background: red;
+}
+.kuning.selected{
+  background: yellow;
+}
+.biru.selected{
+  background: aqua;
+}
+.hjau.selected {
+  background: green;
+}
+.kuning.image{
+  background-image: url('https://img.rankedboost.com/wp-content/plugins/super-smash-bros-ultimate/assets/character-images-main/Pikachu_SSBU.png');
+}
+.merah.image{
+  background-image: url('me.jpg');
+}
+.hjau.image{
+  background-image: url('me2.jpg');
+}
+.biru.image{
+  background-image: url('me3.jpg');
+}
+.image {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 20px;
+}
