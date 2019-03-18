@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import * as serviceWorker from './serviceWorker';
 
 {/*const items = ['Merah ', 'Kuning ', 'Hjau ', 'Biru '];*/}
 const items = [
@@ -15,7 +16,7 @@ const items = [
         name : 'Banana',
         color : 'Kuning',
         img : 'kuning.jpg',
-        desc : 'test1',
+        desc : 'Pisang merupakan salah satu buah yang mengandung banyak manfaat. Buah pisang dipercaya dapat mencegah kanker karena memiliki kandungan antikarsionogen. maybe. im not sure too',
     },
     {
         name : 'Daun',
@@ -34,3 +35,4 @@ const items = [
 
 ReactDOM.render(<App items ={items}/>,
      document.getElementById('root'));
+serviceWorker.register();
