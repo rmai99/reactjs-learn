@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/reactjs-learn/static/css/main.0ab98ed5.chunk.css"
   },
   {
-    "revision": "633d2623089370a7d1996b906835d865",
+    "revision": "8bbd122facc035b6ac25a06f51d609c8",
     "url": "/reactjs-learn/index.html"
   }
 ];
