@@ -8,16 +8,6 @@
       "type": "image/x-icon"
     },
     {
-      "src": "facebook.png",
-      "sizes": "image/png",
-      "type": "64x64"
-    },
-    {
-      "src": "facebook2.png",
-      "sizes": "image/png",
-      "type": "144x144"
-    },
-    {
       "src": "icon32.png",
       "sizes": "image/png",
       "type": "32x32"
