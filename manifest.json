@@ -11,6 +11,16 @@
       "src": "facebook.png",
       "sizes": "image/png",
       "type": "64x64"
+    },
+    {
+      "src": "facebook2.png",
+      "sizes": "image/png",
+      "type": "144x144"
+    },
+    {
+      "src": "facebook3.png",
+      "sizes": "image/png",
+      "type": "192x192"
     }
   ],
   "start_url": "index.html",
