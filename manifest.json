@@ -33,12 +33,12 @@
       "type": "144x144"
     },
     {
-      "src": "facebook192.png",
+      "src": "icon192.png",
       "sizes": "image/png",
       "type": "192x192"
     },
     {
-      "src": "facebook256.png",
+      "src": "icon56.png",
       "sizes": "image/png",
       "type": "256x256"
     }
