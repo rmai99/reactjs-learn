@@ -18,9 +18,29 @@
       "type": "144x144"
     },
     {
-      "src": "facebook3.png",
+      "src": "icon32.png",
+      "sizes": "image/png",
+      "type": "32x32"
+    },
+    {
+      "src": "icon64.png",
+      "sizes": "image/png",
+      "type": "64x64"
+    }
+    {
+      "src": "icon144.png",
+      "sizes": "image/png",
+      "type": "144x144"
+    }
+    {
+      "src": "facebook192.png",
       "sizes": "image/png",
       "type": "192x192"
+    }
+    {
+      "src": "facebook256.png",
+      "sizes": "image/png",
+      "type": "256x256"
     }
   ],
   "start_url": "index.html",
