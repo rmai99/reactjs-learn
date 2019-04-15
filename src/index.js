@@ -29,6 +29,11 @@ const items = [
         color : 'Biru',
         img : 'biru.jpg',
         desc : 'test3',
+    },
+    {
+        name : 'Calculator',
+        color : 'Calculator',
+        img : ''
     }
 
 ];

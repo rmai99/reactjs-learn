@@ -23,6 +23,44 @@ class App extends Component {
       img : menu.img,
     })
   }
+  info(name){
+    console.log(name);
+    if(name == 'Calculator'){
+      return (
+      <div>
+        <span className={"selected "+this.state.color}>{this.state.name}
+        </span><br></br><br></br>
+        <form onClick="">
+        <input type="number" id="number1" placeholder="Angka1"></input>
+        <select class="form-control" id="exampleFormControlSelect2">
+          <option value="tambah">+</option>
+          <option value="kali">*</option>
+          <option value="kurang">-</option>
+          <option value="bagi">/</option>
+        </select>
+        <input type="number" id="number1" placeholder="Angka2"></input>
+        <button>Hitung</button>
+        </form>
+      </div>)
+    }else{
+      return (
+        <div>
+      ini adalah 
+      <span className={"selected "+this.state.color}>
+          {this.state.name}
+      </span>
+    <br></br>
+    <p>
+    {this.state.desc}
+    </p>
+      <br></br>
+      <img src={this.state.img} width="240"></img>
+      {/*<br></br>
+      <br></br>
+      <div className={"image "+ this.state.color}></div>*/}
+      </div>)
+    }
+  }
   render(){
     return(
       <div id="app">
@@ -44,23 +82,9 @@ class App extends Component {
           </nav>
 
           <div className="info">
-          <p>
-          ini adalah 
-            <span className={"selected "+this.state.color}>
-                {this.state.name}
-            </span>
-          </p>
-          <br></br>
-          <p>
-          {this.state.desc}
-          </p>
-            <br></br>
-            <img src={this.state.img} width="240"></img>
-            {/*<br></br>
-            <br></br>
-            <div className={"image "+ this.state.color}></div>*/}
-            </div>
+          {this.info(this.state.name)}
 
+          </div>
       </div>
         );
       }
