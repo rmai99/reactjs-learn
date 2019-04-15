@@ -17,22 +17,22 @@ self.__precacheManifest = [
   },
   {
     "revision": "742315a3bafb321201e5",
-    "url": "/reactjs-learn/static/js/runtime~main.f2f3a9a6.js"
+    "url": "/reactjs-learn/static/js/runtime~main.742315a3.js"
   },
   {
-    "revision": "73c61eca9c035a409924",
-    "url": "/reactjs-learn/static/js/main.5869f005.chunk.js"
+    "revision": "852f59798d82206cecb1",
+    "url": "/reactjs-learn/static/js/main.852f5979.chunk.js"
   },
   {
-    "revision": "3c688a83c6a96b1bd515",
-    "url": "/reactjs-learn/static/js/2.f885ce20.chunk.js"
+    "revision": "681b51057d74cfa8975d",
+    "url": "/reactjs-learn/static/js/2.681b5105.chunk.js"
   },
   {
-    "revision": "73c61eca9c035a409924",
-    "url": "/reactjs-learn/static/css/main.282011c6.chunk.css"
+    "revision": "852f59798d82206cecb1",
+    "url": "/reactjs-learn/static/css/main.05b3ad5f.chunk.css"
   },
   {
-    "revision": "fe707e822a434811555735742275085b",
+    "revision": "fd84ae72a305c2ec34bbd50bd8349721",
     "url": "/reactjs-learn/index.html"
   }
 ];
