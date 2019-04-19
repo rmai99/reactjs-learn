@@ -34,6 +34,11 @@ const items = [
         name : 'Calculator',
         color : 'Calculator',
         img : ''
+    },
+    {
+        name : 'Profile',
+        color : 'Profile',
+        img : ''
     }
 
 ];

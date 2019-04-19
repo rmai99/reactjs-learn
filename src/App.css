@@ -22,7 +22,7 @@ a:hover {
 }
 
 .nav {
-  width: 500px;
+  width: 700px;
   margin: 20px auto;
   max-width: 48em;
   border: 1px solid #333;
@@ -56,7 +56,9 @@ a:hover {
 .hjau.is-active {
   background: green;
 }
-
+.profile.is-active {
+  background: rgb(44, 221, 221)
+}
 .info {
   margin-top: 40px;
   text-align: center;
@@ -83,6 +85,9 @@ a:hover {
 }
 .hjau.selected {
   background: green;
+}
+.profile.selected {
+  background: rgb(61, 214, 214)
 }
 .kuning.image{
   background-image: url('https://img.rankedboost.com/wp-content/plugins/super-smash-bros-ultimate/assets/character-images-main/Pikachu_SSBU.png');
