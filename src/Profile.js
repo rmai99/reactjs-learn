@@ -9,7 +9,10 @@ class Profile extends Component {
 
   render(){
     return(
-        <img src="kuning.jpg"/>      
+        <div>
+          <p>{this.props.nama}</p>
+          <img src="kuning.jpg"/>
+        </div>      
         );
       }
     }

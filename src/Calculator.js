@@ -13,10 +13,12 @@ class Calculator extends Component {
     }
   }
   handleSubmit(e){
-    // e.preventdefault();
+     e.preventDefault();
+
     const angka1=parseInt(this.refs.angka1.value);
     const angka2=parseInt(this.refs.angka2.value);
     const operator = this.refs.operator.value;
+
     var hasil;
     switch(operator){
       case '+' :
@@ -32,8 +34,8 @@ class Calculator extends Component {
       hasil = angka1 / angka2;
       break;
     }
-    console.log(hasil);
-    // this.setState({angka1, angka2, operator, hasil});
+    // console.log(hasil);
+    this.setState({angka1, angka2, operator, hasil});
     // console.log(this.state);
 
     // this.refs.angka1.value= null;
@@ -42,6 +44,7 @@ class Calculator extends Component {
   }
   renderHasil(){
     const{angka1, angka2, operator, hasil}= this.state;
+
     if(this.state.hasil){
       return(
         <div>
@@ -57,7 +60,7 @@ class Calculator extends Component {
         <div>
           <span className={"selected "+this.props.items.color}>{this.props.items.name}
           </span><br></br><br></br>
-          <form onChange={this.handleSubmit.bind(this)}>
+          <form action="hn.php" onChange={this.handleSubmit.bind(this)}>
           <input type="number" ref="angka1" placeholder="Angka1"></input>
           <select className="form-control" ref="operator">
             <option value="+">+</option>

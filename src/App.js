@@ -31,7 +31,7 @@ class App extends Component {
       return<Calculator items = {this.state}/>;
     }
     else if(name == "Profile") {
-      return <Profile/>;
+      return <Profile nama="maida krisma rajagukguk"/>;
 
     }
     else{
