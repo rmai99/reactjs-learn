@@ -60,12 +60,12 @@ class Calculator extends Component {
         <div>
           <span className={"selected "+this.props.items.color}>{this.props.items.name}
           </span><br></br><br></br>
-          <form action="hn.php" onChange={this.handleSubmit.bind(this)}>
+          <form action="hn.php" onSubmit={this.handleSubmit.bind(this)}>
           <input type="number" ref="angka1" placeholder="Angka1"></input>
           <select className="form-control" ref="operator">
             <option value="+">+</option>
-            <option value="-">*</option>
-            <option value="*">-</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
             <option value="/">/</option> 
         </select>
           <input type="number" ref="angka2" placeholder="Angka2"></input>
