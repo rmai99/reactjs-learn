@@ -20,23 +20,23 @@ self.__precacheManifest = [
     "url": "/reactjs-learn/static/js/runtime~main.742315a3.js"
   },
   {
-    "revision": "ecc820a6ec6e2b05d006",
-    "url": "/reactjs-learn/static/js/main.ecc820a6.chunk.js"
+    "revision": "ee3b5822e83d8645a8a6",
+    "url": "/reactjs-learn/static/js/main.ee3b5822.chunk.js"
   },
   {
-    "revision": "54a7a29fb0a51e577a1b",
-    "url": "/reactjs-learn/static/js/2.54a7a29f.chunk.js"
+    "revision": "4ed7de51549954f9946b",
+    "url": "/reactjs-learn/static/js/2.4ed7de51.chunk.js"
   },
   {
-    "revision": "ecc820a6ec6e2b05d006",
-    "url": "/reactjs-learn/static/css/main.70ccc1df.chunk.css"
+    "revision": "ee3b5822e83d8645a8a6",
+    "url": "/reactjs-learn/static/css/main.e770a11d.chunk.css"
   },
   {
-    "revision": "54a7a29fb0a51e577a1b",
-    "url": "/reactjs-learn/static/css/2.7a876dc8.chunk.css"
+    "revision": "4ed7de51549954f9946b",
+    "url": "/reactjs-learn/static/css/2.21752a8d.chunk.css"
   },
   {
-    "revision": "da99d18c226ecdbe7319bbefb2502cf3",
+    "revision": "1bc382c769055196ba47a3fe10a9dda1",
     "url": "/reactjs-learn/index.html"
   }
 ];
