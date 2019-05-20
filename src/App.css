@@ -1,9 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  
 }
 
 body {
+  margin-left: 10%;
+  margin-right: 10%;
   font-family: sans-serif;
 }
 
@@ -22,7 +25,7 @@ a:hover {
 }
 
 .nav {
-  width: 700px;
+  width: auto;
   margin: 20px auto;
   max-width: 48em;
   border: 1px solid #333;
@@ -121,6 +124,8 @@ ul.header li {
   margin: 0;
 }
 ul.header {
+  width: 1000px;
+  margin: 20px auto;
   background-color: #24CED0;
   padding: 0;
 }
@@ -132,6 +137,7 @@ ul.header li a {
   display: inline-block;
 }
 .content {
+  
   background-color: #FFF;
   padding: 20px;
 }

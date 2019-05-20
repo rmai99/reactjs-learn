@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Profile from './Profile.js';
 import Calculator from './Calculator.js';
-import Home from './Home.js';
+import Main from './Main.js';
 import toast from 'toasted-notes' 
 import 'toasted-notes/src/styles.css';
 
@@ -38,11 +37,9 @@ class App extends Component {
     }
     else if(name == "Profile") {
       return <Profile nama="maida krisma rajagukguk"/>;
-
     }
-    else if(name == "Home"){
-      return <Home/>
-
+    else if(name == "Main"){
+      return<Main/> 
     }
     else{
       return (

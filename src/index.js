@@ -41,8 +41,8 @@ const items = [
         img : ''
     },
     {
-        name : 'Home',
-        color : 'Home',
+        name : 'Main',
+        color : 'Main',
         img : ''
     }
 
